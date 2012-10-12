@@ -1,0 +1,161 @@
+body {
+  color: #333;
+  font-size: 62.5%;
+  height: auto;
+  padding-bottom: 20px;
+  font-family: "Gruppo";
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Lucida Grande", "Helvetica", "Arial";
+}
+
+p {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+  height: 20px;
+  border-radius: 14px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.grid_2 p {
+	background-image : url("../img/pits.gif");
+	background-repeat: no-repeat;
+        background-size: 30px 30px;
+}
+/*
+p:hover {
+  cursor: pointer;
+  font-size: 2.3em;
+  background-color: red;
+}*/
+
+.hover {
+  cursor: pointer;
+  font-size: 2.3em;
+  background-color: red;
+}
+
+#status {
+	border: 1px solid black;
+	font-size: 2em;
+	position: fixed;
+	bottom: 100px;
+	width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#updates {
+  border: 1px solid black;
+  font-size: 2em;
+  position: fixed;
+  bottom: 100px;
+  width: 500px;
+  padding: 10px;
+  right: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container_12 {
+  margin-top: 50px;
+}
+
+.jar_1 {
+  position: absolute;
+}
+
+.image {
+position: absolute;
+}
+
+.score {
+position: absolute;
+/* assuming jar size is 150x150 */
+top: 42px;
+left: 62px;
+font-size: 5.4em;
+color: red;
+font-weight: bold;
+}
+
+.container_12 .grid_2 {
+  height: 48px;
+  margin-bottom: 30px;
+}
+
+.gameover {
+/* setup top and right properties via js */
+  position: fixed;
+  width: 315px;
+  height: 105px;
+  padding: 20px;
+  text-align: center;
+  background-color: #666;
+  border-radius: 40px;
+  color: white;
+  font-size: 3.4em;
+  margin: 0 auto;
+}
+
+#timer {
+  position: fixed;
+  padding: 5px;
+  font-size: 3.4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#powerups {
+  position: fixed;
+  padding: 10px;
+  border-radius: 10px;
+/*  border: 1px solid black; */
+  right: 0;
+  bottom: 400px; /* since #updates is 100px */
+}
+
+#powerups a {
+  display: block;
+}
+
+#powerups img {
+  margin: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  border:  1px solid black;
+}
